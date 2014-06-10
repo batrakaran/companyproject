@@ -1,5 +1,11 @@
 <div data-sly-include="head.html" />
 <div data-sly-resource="${@path='par', resourceType='wcm/foundation/components/parsys'}"></div>
+
+<div data-sly-resource="${@path='var', resourceType='company/components/simpleVariable'}"></div>
+
+<div data-sly-resource="${@path='parameterexample', resourceType='company/components/parameterexample'}"></div>
+
+
 <section class="component-name" data-sly-use.component="Component" >
     <h1> Page Details</h1>
     <p>${component.currentPageTitle}</p>

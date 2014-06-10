@@ -1,0 +1,9 @@
+<div data-sly-test.vartest ="${ properties.myTest}" >
+    ${properties.myTest}
+</div>
+
+<div data-sly-test="${!vartest}" >
+    Property does not exist
+</div>
+
+<div data-sly-test="${properties.myTest == 'test'}" > Please do not use the word test for this variable</div>
