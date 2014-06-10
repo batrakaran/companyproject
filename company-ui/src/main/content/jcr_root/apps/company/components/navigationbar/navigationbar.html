@@ -1,0 +1,6 @@
+<div data-sly-use.van="Nav" />
+<div class="topnav">
+    <ul data-sly-list.child="${nav.pages}" id="topnav">
+        <li><a href="${child.getPath}.html">${child.title}</a></li>
+    </ul>
+</div>
