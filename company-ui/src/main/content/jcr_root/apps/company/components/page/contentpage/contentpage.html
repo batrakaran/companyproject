@@ -1,2 +1,9 @@
 <div data-sly-include="head.html" />
 <div data-sly-resource="${@path='par', resourceType='wcm/foundation/components/parsys'}"></div>
+<section class="component-name" data-sly-use.component="Component" >
+    <h1> Page Details</h1>
+    <p>${component.currentPageTitle}</p>
+    <p>${component.currentPageName}</p>
+    <p>${component.currentPagePath}</p>
+    <p>${component.pageDescription}</p>
+</section>
