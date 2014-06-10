@@ -1,0 +1,5 @@
+Funny Text Component
+
+<span class="funny" data-sly-test.vartest="${properties.text}">
+<p data-sly-use.text="text.js" data-sly-unwrap="${text.context == text.CONST.CONTEXT_HTML}" class="${text.cssClass}" data-emptytext="Text">${text.text @ context=text.context}</p>
+</span>
