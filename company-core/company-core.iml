@@ -59,6 +59,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.day.cq:cq-polling-importer:5.4.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: commons-httpclient:commons-httpclient:3.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.day.cq.workflow:cq-workflow-api:5.4.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.adobe.cq.sightly:cq-wcm-sightly-extension:1.1.18" level="project" />
   </component>
 </module>
 

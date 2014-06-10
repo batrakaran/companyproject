@@ -177,5 +177,12 @@
             <groupId>com.day.cq.workflow</groupId> 
             <artifactId>cq-workflow-api</artifactId> 
         </dependency>
+
+        <!-- Sightly -->
+        <dependency>
+            <groupId>com.adobe.cq.sightly</groupId>
+            <artifactId>cq-wcm-sightly-extension</artifactId>
+        </dependency>
+
        </dependencies> 
        </project>

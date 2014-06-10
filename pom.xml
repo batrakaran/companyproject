@@ -375,6 +375,14 @@
                 <version>5.4.2</version> 
                 <scope>provided</scope>
             </dependency>
+
+            <!-- Sightly -->
+            <dependency>
+                <groupId>com.adobe.cq.sightly</groupId>
+                <artifactId>cq-wcm-sightly-extension</artifactId>
+                <version>1.1.18</version>
+                <scope>provided</scope>
+            </dependency>
          </dependencies>
 	</dependencyManagement>
 </project>
