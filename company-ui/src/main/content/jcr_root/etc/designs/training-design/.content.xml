@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2014-07-16T14:56:56.200+05:30"
+        cq:lastModified="{Date}2014-07-23T12:20:09.757+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/libs/wcm/core/templates/designpage"
         jcr:primaryType="cq:PageContent"
@@ -10,11 +10,11 @@
         sling:resourceType="wcm/core/components/designer">
         <page-content jcr:primaryType="nt:unstructured">
             <parsys
-                jcr:lastModified="{Date}2014-07-16T14:56:56.197+05:30"
+                jcr:lastModified="{Date}2014-07-23T12:20:09.754+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/parsys"
-                components="group:Training">
+                components="[group:General,group:Training]">
                 <section jcr:primaryType="nt:unstructured"/>
             </parsys>
         </page-content>

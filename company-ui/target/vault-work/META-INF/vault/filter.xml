@@ -6,6 +6,11 @@
     </filter>
     <filter root="/etc/designs/company"/>
     <filter root="/etc/clientlibs/company"/>
-    <filter root="/content/company"/>	
+    <filter root="/content/company"/>
+    
+    <filter root="/apps/demo"/>
+    <filter root="/content/demo"/>
+    <filter root="/etc/designs/training-design"/>
+        
 
 </workspaceFilter>
